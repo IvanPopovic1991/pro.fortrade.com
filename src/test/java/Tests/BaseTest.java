@@ -12,6 +12,6 @@ public void baseSetUp(String browser, String version){
     driverManager = DriverManagerFactory.getDriverManager(browser);
     driver = driverManager.getWebDriver(version);
     driver.manage().window().maximize();
-    driver.get("pro.fortrade.com/#signup");
+    driver.get("https://pro.fortrade.com/#signup");
     }
 }
