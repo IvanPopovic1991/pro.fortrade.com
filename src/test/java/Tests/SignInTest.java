@@ -1,5 +1,6 @@
 package Tests;
 
+import Pages.BasePage;
 import Pages.SignInPage;
 import jdk.jfr.Description;
 import org.openqa.selenium.By;
@@ -12,6 +13,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class SignInTest extends BaseTest {
     @BeforeMethod
     public void setUp() {
@@ -21,7 +24,7 @@ public class SignInTest extends BaseTest {
     @Test(description = "User successfully registered demo account on pro.fortrade.com page")
     @Description("Account is successfully registered under certain regulation.")
     @Parameters({"countryCodeNumber", "regulative"})
-    public void sigInMethod(String countryCodeNumber, String regulative) {
+    public void sigInMethod(String countryCodeNumber, String regulative) throws IOException {
         SignInPage signInPage = new SignInPage(driver);
         signInPage.signIn("Testq Testa", "test" + System.currentTimeMillis() + "@mailinator.com",
                 countryCodeNumber, System.currentTimeMillis() + "");
@@ -35,6 +38,7 @@ public class SignInTest extends BaseTest {
         String regulativeValue = attribute.getAttribute("data-lcreg");
         //Verifying they are matching
         Assert.assertEquals(regulativeValue, regulative);
+        new BasePage(driver).reportScreenshot("User register account under "+regulative+" regulative");
     }
     @AfterMethod
     public void tearDown(){
