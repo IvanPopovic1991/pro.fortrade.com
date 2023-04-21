@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -38,6 +39,21 @@ public class BasePage {
             System.out.println("Clicked " + log);
         }
     }
+    public void selectElement(WebElement element,String text, String log){
+     try{
+         WebDriverWait wdWait = new WebDriverWait(driver, 10);
+         wdWait.until(ExpectedConditions.visibilityOf(element));
+         wdWait.until(ExpectedConditions.elementToBeClickable(element));
+
+         Select select = new Select(element);
+         select.selectByVisibleText(text);
+         System.out.println("Selected : " +text+" "+ log);
+     }catch (StaleElementReferenceException e){
+         Select select = new Select(element);
+         select.selectByVisibleText(text);
+         System.out.println("Selected : " +text+" "+ log);
+     }
+    }
 
     public void typeText(WebElement element, String text, String log) {
         try {
@@ -59,10 +75,10 @@ public class BasePage {
         try {
             WebDriverWait wdWait = new WebDriverWait(driver, 10);
             wdWait.until(ExpectedConditions.visibilityOf(driver.findElement(by)));
-            System.out.println("Get text " + log);
+            System.out.println("The " + log + " element is present");
             return driver.findElement(by).getText();
         } catch (StaleElementReferenceException e) {
-            System.out.println("Get text " + log);
+            System.out.println("The " + log + " element is present");
             return driver.findElement(by).getText();
         }
     }
