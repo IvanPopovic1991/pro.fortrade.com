@@ -37,12 +37,21 @@
 <!--            <class name="Tests.SignInTest"/>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="buyProduct">
+    <test name="buyProduct - FSC regulative">
+        <parameter name="countryCodeNumber" value="381"/>
+        <parameter name="symbol" value="GBPUSD`"/>
+        <parameter name="symbolValue" value="GBP/USD"/>
+        <classes>
+            <class name="Tests.BuyProductsTest"/>
+        </classes>
+    </test>
+
+    <test name="sellProduct - FSC regulative">
         <parameter name="countryCodeNumber" value="381"/>
         <parameter name="symbol" value="USDCAD"/>
         <parameter name="symbolValue" value="USD/CAD"/>
         <classes>
-            <class name="Tests.BuyProductsTest"/>
+            <class name="Tests.SellProductsTest"/>
         </classes>
     </test>
 </suite>
