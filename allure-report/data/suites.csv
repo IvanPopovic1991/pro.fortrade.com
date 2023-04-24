@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Apr 21 15:27:03 BST 2023","Fri Apr 21 15:27:19 BST 2023","16181","pro.fortrade.com","buyProduct","Tests.BuyProductsTest","Tests.BuyProductsTest","buyProduct","User bought product successfully",""

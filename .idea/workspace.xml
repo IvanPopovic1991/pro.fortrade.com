@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b9b015c-d57d-4e0c-bc3f-eb75b8beed6c" name="Changes" comment="Allure reporter - added : &#10;- added dependencies &#10;- generated report after tests running">
+    <list default="true" id="1b9b015c-d57d-4e0c-bc3f-eb75b8beed6c" name="Changes" comment="Added product to open trades position - Buy product flow : &#10;- created Buy product page - elements and methods&#10;- added parameters for products in TestNg.xml file &#10;- generated report after tests 0running">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8b5f56a67141f24d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/a3ab4cec92f8cc96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/df5a64a453fde312.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/ef67118a3dc933b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/fc417a99631717fc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/d54e94f297692c54.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
@@ -20,11 +16,7 @@
       <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/19d3bce0c2a11629.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/33667a9722e1273.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/c242bc67b4354d90.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/cf8696444e1ab991.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d5febec1d251646d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/a263899a4e8e950e.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
@@ -55,39 +47,15 @@
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/002960d7-74b6-4467-a600-f26ec2b43bf3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/00dc4e33-583a-473f-9861-539cea67d662-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0b532050-0e8c-4010-9c7c-fbcd3831bcac-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0f30b5ed-55b7-46da-b10d-60665282086c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/17fead27-f14b-4cdf-9eb0-08e0d3512d89-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/19c42750-3c8b-4dbf-b7dc-99e30da9adbb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1ddcce2b-2253-4c36-82eb-de3679828b00-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1e755486-2299-4e4f-b6f9-59f3242652ad-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/21b00a3a-29e0-43f2-8419-6794b0a41169-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/22c8d0af-7cc3-4866-b71e-8896f86c38e1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/23759c10-d06c-46a9-a0ba-652069035747-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/272f95c5-d392-4fb8-82a4-0cf624e669fb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/29b0d45b-1004-4ad7-b909-396d893d32a1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/32157819-3070-45bf-a790-5628cd9f6d2e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3849ae65-aef9-4979-a72c-d0b554b5c860-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/51b3961c-c06e-4e73-b95f-53f2b24b4e08-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/673a26de-4212-4dcd-a96d-ffc9cbb853e7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/70623496-1f8c-434c-ba56-792c1845fe88-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/730e7edf-2eeb-417d-a77f-875e39405d48-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/879695ee-82ae-4be6-a1ad-969e221a7136-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8aafa29e-ef32-4331-86e4-194a345f0f70-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8aeb702c-a1e9-4e29-bea0-b89b35d32404-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a39c6bf3-7869-4797-a83d-fca17ab70e07-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ab516be7-f57a-4443-8dd1-66f3ef06cfee-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/acb849a7-acd7-4672-8cb0-821e2232c948-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ad5c79e9-e27a-4c6c-abdf-8ba33f6fc429-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b7f0f32b-58bf-45c2-8839-3c3a38e3cb45-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c1345569-7735-4660-ba3e-4c04638be7d2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f71e2988-995c-47db-a5c2-e417255f12ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fbb065d4-4b50-48fd-983f-6ecb47cd8bb0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ff237826-9677-40ed-b882-6190f8bd6de8-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0966a4fb-b58a-46de-bd74-6d36fbdde8e2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/677b6068-7ca2-491e-baf9-40ae059073ce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/69a159b3-59fd-408d-8520-e776cf169e30-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bbf1d53e-3f91-47ba-8723-c85603dfe0d1-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d0bfb32f-bbe9-4093-b2a5-0a9cace10ed3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ef5b9b2c-1eb0-42e3-9af5-7a2940da23f2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f75b026a-5319-4f49-b828-6e5035d953cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screenshots/Products added to open trades position.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/screenshots/Products added to open trades position.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ProductsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +70,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
